@@ -25,10 +25,10 @@ while validador == True:
   
 		salarioDevengado = SMLV*diasLaborados/30
 		if salarioDevengado<=(SMLV*2):
-			salarioDevengado = salarioDevengado+AUXILIO_TRANSPORTE
+			salarioDevengado = salarioDevengado + AUXILIO_TRANSPORTE
 		ventasTotales = (ventasTotales*2)/100
 		totaldevengado = salarioDevengado+ventasTotales
-		salarioneto = int(salarioDevengado-deducciones)
+		salarioneto = int(totaldevengado-deducciones)
   
 		# Imprimir en pantalla los resultados
 		print(" ")
