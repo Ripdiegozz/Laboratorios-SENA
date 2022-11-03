@@ -38,7 +38,7 @@ if opcion == 1:
 
     while True:
         try:
-            potenciador = int(input("\nCuantas veces deseas que se multiplique el ahorro? (Maximo 2)\n: "));
+            potenciador = float(input("\nCuantas veces deseas que se multiplique el ahorro? (Maximo 2)\n: "));
         except ValueError:
             print("\n\nQuerido usuario, no ha ingresado una cantidad valida.");
             continue;
@@ -65,7 +65,7 @@ if opcion == 2:
 
     while True:
         try:
-            potenciador = int(input("\nCuantas veces deseas que se multiplique el ahorro? (Maximo 2)\n: "));
+            potenciador = float(input("\nCuantas veces deseas que se multiplique el ahorro? (Maximo 2)\n: "));
         except ValueError:
             print("\nQuerido usuario, no ha ingresado una cantidad valida.");
             continue;
@@ -92,7 +92,7 @@ if opcion == 3:
 
     while True:
         try:
-            potenciador = int(input("\nCuantas veces deseas que se multiplique el ahorro? (Maximo 4)\n: "));
+            potenciador = float(input("\nCuantas veces deseas que se multiplique el ahorro? (Maximo 4)\n: "));
         except ValueError:
             print("\nQuerido usuario, no ha ingresado una cantidad valida.");
             continue;
@@ -119,7 +119,7 @@ if opcion == 4:
 
     while True:
         try:
-            potenciador = int(input("\nCuantas veces deseas que se multiplique el ahorro? (Maximo 6)\n: "));
+            potenciador = float(input("\nCuantas veces deseas que se multiplique el ahorro? (Maximo 6)\n: "));
         except ValueError:
             print("\nQuerido usuario, no ha ingresado una cantidad valida.");
             continue;
@@ -146,7 +146,7 @@ if opcion == 5:
 
     while True:
         try:
-            potenciador = int(input("\nCuantas veces deseas que se multiplique el ahorro? (Maximo 2)\n: "));
+            potenciador = float(input("\nCuantas veces deseas que se multiplique el ahorro? (Maximo 2)\n: "));
         except ValueError:
             print("\nQuerido usuario, no ha ingresado una cantidad valida.");
             continue;
