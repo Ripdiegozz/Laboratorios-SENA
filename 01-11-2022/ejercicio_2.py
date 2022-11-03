@@ -26,7 +26,7 @@ if opcion == 1:
     print("\nPara la linea de credito de educacion, se presta un maximo de dos veces el valor de ahorro del socio.");
     while True:
         try:
-            vAhorro = int(input("\nIngresa el valor a depositar como ahorro: "));
+            vAhorro = float(input("\nIngresa el valor a depositar como ahorro: "));
         except ValueError:
             print("\nQuerido usuario, no ha ingresado una cantidad valida.");
             continue;
@@ -53,7 +53,7 @@ if opcion == 2:
     print("\nPara la linea de credito de vacaciones, se presta un maximo de dos veces el valor de ahorro del socio.");
     while True:
         try:
-            vAhorro = int(input("\nIngresa el valor a depositar como ahorro: "));
+            vAhorro = float(input("\nIngresa el valor a depositar como ahorro: "));
         except ValueError:
             print("\nQuerido usuario, no ha ingresado una cantidad valida.");
             continue;
@@ -80,7 +80,7 @@ if opcion == 3:
     print("\nPara la linea de credito de vehiculo, se presta un maximo de cuatro veces el valor de ahorro del socio.");
     while True:
         try:
-            vAhorro = int(input("\nIngresa el valor a depositar como ahorro: "));
+            vAhorro = float(input("\nIngresa el valor a depositar como ahorro: "));
         except ValueError:
             print("\nQuerido usuario, no ha ingresado una cantidad valida.");
             continue;
@@ -107,7 +107,7 @@ if opcion == 4:
     print("\nPara la linea de credito de vivienda, se presta un maximo de seis veces el valor de ahorro del socio.");
     while True:
         try:
-            vAhorro = int(input("\nIngresa el valor a depositar como ahorro: "));
+            vAhorro = float(input("\nIngresa el valor a depositar como ahorro: "));
         except ValueError:
             print("\nQuerido usuario, no ha ingresado una cantidad valida.");
             continue;
@@ -134,7 +134,7 @@ if opcion == 5:
     print("\nPara la linea de credito de calamidad domestica, se presta un maximo de dos veces el valor de ahorro del socio.");
     while True:
         try:
-            vAhorro = int(input("\nIngresa el valor a depositar como ahorro: "));
+            vAhorro = float(input("\nIngresa el valor a depositar como ahorro: "));
         except ValueError:
             print("\nQuerido usuario, no ha ingresado una cantidad valida.");
             continue;
